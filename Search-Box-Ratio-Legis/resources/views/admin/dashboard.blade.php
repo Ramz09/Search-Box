@@ -24,7 +24,7 @@
             <div>
                 <p class="text-xs uppercase tracking-[0.35em] text-sky-600">Kementerian Perdagangan</p>
                 <h1 class="mt-2 text-4xl font-bold text-slate-900 md:text-5xl" style="font-family: 'Playfair Display', serif;">Dashboard Admin</h1>
-                <p class="mt-3 max-w-2xl text-sm text-slate-600 md:text-base">Pantau seluruh peraturan yang tersimpan dengan tampilan yang sama seperti Search Box.</p>
+                <p class="mt-3 max-w-2xl text-sm text-slate-600 md:text-base">Pantau seluruh peraturan yang tersimpan</p>
             </div>
             <div class="flex flex-wrap gap-2 text-xs text-slate-700">
                 <span class="rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 font-semibold text-emerald-700 shadow-sm">Mode Admin</span>
@@ -105,11 +105,6 @@
         <section class="mt-10">
             <div class="rounded-3xl border border-white/80 bg-white/95 p-6 shadow-2xl shadow-slate-100">
                 <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-                    <div class="flex flex-wrap gap-2 text-xs text-slate-600">
-                        <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Tabel peraturan</span>
-                        <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Layout identik Search Box</span>
-                        <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Aksi file terpusat</span>
-                    </div>
                     <div class="flex items-center gap-2 text-xs text-slate-600">
                         <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
                         <span>Data realtime</span>

@@ -27,17 +27,13 @@
                     Search Box Ratio Legis
                 </h1>
                 <p class="mt-3 max-w-2xl text-sm text-slate-600 md:text-base">
-                    Cari dan jelajahi dokumen hukum, kebijakan, dan nota dinas perdagangan dalam negeri dengan pencarian interaktif berbasis front end.
+                    Cari dan jelajahi dokumen hukum, kebijakan, dan nota dinas perdagangan dalam negeri dengan pencarian interaktif.
                 </p>
             </div>
             <div class="flex flex-wrap gap-3">
                 <button class="inline-flex items-center gap-2 rounded-full border border-sky-200 bg-white px-4 py-2 text-sm font-semibold text-sky-800 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
                     <span class="h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_0_6px_rgba(16,185,129,0.2)]"></span>
                     Real-time Filter
-                </button>
-                <button class="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-sm font-semibold text-emerald-800 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
-                    <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
-                    Dummy Data (Front End)
                 </button>
             </div>
         </header>
@@ -77,11 +73,6 @@
         <section class="mt-10 grid gap-6 lg:grid-cols-3">
             <div class="lg:col-span-2 rounded-3xl border border-white/80 bg-white/95 p-6 shadow-2xl shadow-slate-100">
                 <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-                    <div class="flex flex-wrap gap-2 text-xs text-slate-600">
-                        <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Cari semua</span>
-                        <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Filter multi kolom</span>
-                        <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Sorting kolom</span>
-                    </div>
                     <div class="flex items-center gap-2 text-xs text-slate-600">
                         <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
                         Sinkronisasi hasil instan
@@ -171,16 +162,10 @@
                         <div class="mt-1 h-2.5 w-2.5 rounded-full bg-sky-400"></div>
                         <div>
                             <p class="font-semibold">Filtering multi-kata</p>
-                            <p class="text-xs text-slate-500">Cari di judul, deskripsi, kategori.</p>
+                            <p class="text-xs text-slate-500">Cari di judul, deskripsi, kategori, isi konten</p>
                         </div>
                     </li>
-                    <li class="flex items-start gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 shadow-inner shadow-slate-100">
-                        <div class="mt-1 h-2.5 w-2.5 rounded-full bg-amber-400"></div>
-                        <div>
-                            <p class="font-semibold">Dummy dataset</p>
-                            <p class="text-xs text-slate-500">Data tersimpan di front end untuk uji coba cepat.</p>
-                        </div>
-                    </li>
+
                     <li class="flex items-start gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 shadow-inner shadow-slate-100">
                         <div class="mt-1 h-2.5 w-2.5 rounded-full bg-emerald-400"></div>
                         <div>
@@ -191,8 +176,8 @@
                 </ul>
 
                 <div class="mt-6 rounded-2xl border border-slate-200 bg-gradient-to-br from-white via-slate-50 to-emerald-50 p-4 shadow-inner shadow-slate-100">
-                    <p class="text-xs uppercase tracking-wide text-slate-500">Simulasi Input Dokumen</p>
-                    <p class="mt-1 text-sm text-slate-700">Tombol ini hanya ilustrasi front end.</p>
+                    <p class="text-xs uppercase tracking-wide text-slate-500">Input Dokumen</p>
+                    <p class="mt-1 text-sm text-slate-700">Tekan tombol ini untuk menampilkan form input dokumen</p>
                     <button id="btn-input-dokumen" class="mt-3 w-full rounded-xl bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-emerald-200 transition hover:-translate-y-0.5 hover:bg-emerald-400">
                         + Input Dokumen Baru
                     </button>
